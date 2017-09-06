@@ -1,0 +1,4 @@
+db.wands.update(
+  {"name": "Dream Bender"},
+  {"$set": {"powers.0": "Fire Deflection"}}
+)

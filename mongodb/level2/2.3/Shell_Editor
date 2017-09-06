@@ -1,0 +1,4 @@
+> db.wands.remove(
+  {'powers': "Death"},
+  {'multi': true}
+)

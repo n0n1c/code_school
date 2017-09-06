@@ -1,0 +1,5 @@
+db.wands.update(
+  {"powers": "Love"},
+  {"$set": {"powers.$": "Love Burst"}},
+  {"multi": true}
+)

@@ -1,0 +1,5 @@
+db.wands.update(
+  {},
+  {"$unset": {"smell": ""}},
+  {"multi": true}
+)

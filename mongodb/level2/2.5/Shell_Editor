@@ -1,0 +1,5 @@
+db.wands.update(
+  {"powers": "Fire"},
+  {"$inc": {"level_required": 2}},
+  {"multi": true}
+)

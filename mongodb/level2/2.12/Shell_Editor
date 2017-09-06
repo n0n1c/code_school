@@ -1,0 +1,4 @@
+db.wands.update(
+  {"name": "Dream Bender"},
+  {"$push": {"powers": "Spell Casting"}}
+)

@@ -1,0 +1,5 @@
+db.logs.update(
+  {"name": "Dream Bender"},
+  {"$inc": {"count": 1}},
+  {"upsert": true}
+)
