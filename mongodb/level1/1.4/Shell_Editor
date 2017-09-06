@@ -1,0 +1,6 @@
+> db.wands.insert(
+  {
+    "name": "Dream Bender",
+    "creator": "Foxmond"
+  }
+)
