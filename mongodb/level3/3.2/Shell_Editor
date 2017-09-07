@@ -1,0 +1,3 @@
+db.wands.find(
+  {"maker": "Moonsap", "level_required": 5}
+)

@@ -1,0 +1,3 @@
+db.wands.find(
+  {"damage.melee": {"$gte": 30, "$lte": 40}}
+)

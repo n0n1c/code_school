@@ -1,0 +1,3 @@
+db.wands.find(
+  {"level_required": {"$lte": 5}}
+)

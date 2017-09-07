@@ -1,0 +1,3 @@
+db.wands.find(
+  {"lengths": {"$elemMatch": {"$gte": 2.5, "$lt": 3}}}
+)
