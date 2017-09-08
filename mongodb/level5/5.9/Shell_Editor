@@ -1,0 +1,5 @@
+db.wands.aggregate([
+  {"$match": {"price": {"$lt": 50}}},
+  {"$group": {"_id": "$maker", "average_magic": {"$avg": "$damage.magic"}}},
+  {"$match": {"average_magic": {"$gt": 40}}}
+])

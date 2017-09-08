@@ -1,0 +1,9 @@
+db.wands.aggregate([
+  {"$match": {"powers": "Air Bolt"}},
+  {"$group": 
+   {
+    "_id": "$maker",
+    "lowest_level": {"$min": "$level_required"}
+   }
+  }
+])
